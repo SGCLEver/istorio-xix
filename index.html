@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ed">
+  <meta name="description" content="Тесты по историографии России XIX века для подготовки к ВСОШ.">
+  <title>Историография России XIX века · Тренажёр ВСОШ</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./client.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="topbar">
+    <div class="shell header-inner">
+      <a href="#home" class="brand" aria-label="Историография, главная">
+        <span class="brand-mark" data-icon="book" aria-hidden="true"></span>
+        <span class="brand-name">Историография</span>
+      </a>
+      <nav aria-label="Основное меню" class="top-nav">
+        <a id="nav-tests" href="#home" aria-current="page">Тесты</a>
+        <a id="nav-history" href="#history"><span data-icon="clock" aria-hidden="true"></span>История</a>
+      </nav>
+    </div>
+  </header>
+  <div class="shell">
+    <p id="storage-warning" role="alert" class="notice storage-warning" hidden></p>
+  </div>
+  <main id="main" class="shell">
+    <noscript><p class="notice">Включи JavaScript, чтобы проходить тесты.</p></noscript>
+    <div id="screen"></div>
+  </main>
+  <footer class="shell footer">
+    <span data-icon="device" aria-hidden="true"></span>
+    <span>Попытки сохраняются в этом браузере</span>
+  </footer>
+  <dialog id="dialog" aria-labelledby="dialog-title">
+    <div id="dialog-content"></div>
+  </dialog>
+  <div id="announcement" class="visually-hidden" aria-live="polite"></div>
+</body>
+</html>
